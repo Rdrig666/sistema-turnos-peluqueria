@@ -81,7 +81,6 @@ def menu():
             if not servicio:
                 print("❌ El servicio no puede estar vacío.")
                 continue
-
             turno = {
                 'nombre': nombre,
                 'fecha': fecha,
